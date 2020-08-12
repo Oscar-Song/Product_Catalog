@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
         - name: product-svc
-          image: iad.ocir.io/natdcshjumpstartprod/product_catalog:{{BUILD_NUMBER}}
+          image: phx.ocir.io.ocir.io/ax4qdkn305a7/product_catalog:{{BUILD_NUMBER}}
           command: ["java", "-jar"]
           args:
             - "-Ddatasource.username=$(DB_USER)"
